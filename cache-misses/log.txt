@@ -1,0 +1,16 @@
+Parsing fuzzy tensor ... Parsing fuzzy tensor: 452409/59393160 tuples with nonzero membership degrees.
+Shifting tensor ... Shifting tensor: done.
+Getting and modifying initial patterns ...Getting initial patterns: done.           
+Modifying patterns ... Modifying patterns: 42 patterns with locally maximal explanatory powers.
+Reducing fuzzy tensor to elements in patterns ... Reducing fuzzy tensor to elements in patterns: 1025892 tuples.
+Selecting patterns ... Selecting patterns: 40 patterns selected.
+Tensor parsing time: 1.45666s
+Numeric precision: 1.96147e-06
+Tensor shifting time: 0.503299s
+Explanatory power maximization time: 1.02726s
+Nb of patterns candidates for selection: 42
+Numeric precision: 1.13717e-06
+Tensor reduction time: 0.0254949s
+Nb of selected patterns: 40
+Selection time: 0.00147428s
+Total time: 3.01436s

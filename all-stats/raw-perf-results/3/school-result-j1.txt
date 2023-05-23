@@ -1,0 +1,41 @@
+# started on Tue May 23 11:57:24 2023
+
+
+ Performance counter stats for 'nclusterbox -v2 -m1000 --b -j1 datasets/school -o /dev/null':
+
+     1.596.351.843      branch-instructions                                           (10,67%)
+        62.233.180      branch-misses             #    3,90% of all branches          (14,68%)
+       127.588.570      bus-cycles                                                    (15,25%)
+         1.060.468      cache-misses              #    2,099 % of all cache refs      (15,82%)
+        50.512.563      cache-references                                              (16,09%)
+     5.029.448.353      cpu-cycles                                                    (16,04%)
+     7.635.544.693      instructions              #    1,52  insn per cycle           (19,97%)
+     4.547.185.508      ref-cycles                                                    (23,88%)
+       124.971.294      L1-dcache-load-misses     #    6,63% of all L1-dcache accesses  (23,80%)
+     1.885.165.164      L1-dcache-loads                                               (21,23%)
+       828.328.528      L1-dcache-stores                                              (7,87%)
+         2.184.108      L1-icache-load-misses                                         (7,84%)
+           941.877      LLC-load-misses           #    1,96% of all LL-cache accesses  (7,59%)
+        47.968.395      LLC-loads                                                     (11,16%)
+            15.547      LLC-store-misses                                              (7,17%)
+           308.115      LLC-stores                                                    (7,02%)
+        66.850.859      branch-load-misses                                            (10,30%)
+     1.812.674.638      branch-loads                                                  (13,58%)
+           198.947      dTLB-load-misses          #    0,01% of all dTLB cache accesses  (13,28%)
+     1.886.543.235      dTLB-loads                                                    (11,35%)
+            51.634      dTLB-store-misses                                             (7,04%)
+       903.306.192      dTLB-stores                                                   (7,01%)
+            77.497      iTLB-load-misses          #  413,25% of all iTLB cache accesses  (6,99%)
+            18.753      iTLB-loads                                                    (6,97%)
+                 0      node-load-misses                                              (10,42%)
+           440.223      node-loads                                                    (13,85%)
+                 0      node-store-misses                                             (6,90%)
+            42.922      node-stores                                                   (6,88%)
+
+       1,338904967 seconds time elapsed
+
+       1,317498000 seconds user
+       0,024027000 seconds sys
+
+
+explanatory-power-maximization-time    1.20612

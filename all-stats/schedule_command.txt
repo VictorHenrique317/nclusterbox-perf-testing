@@ -1,0 +1,1 @@
+cd /home/vip/victor.henrique/Documents/nclusterbox-testing/all-stats ; ./main.sh --rerun > logs/30runs-24-05.txt ; chown victor.henrique:victor.henrique logs/*

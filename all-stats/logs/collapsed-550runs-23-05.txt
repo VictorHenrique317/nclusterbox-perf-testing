@@ -1,0 +1,103 @@
+=============================== DATASET: retweets-sparser ================================
+R de Pearson e p-valor para cada parâmetro (BRUTO):
+    bus-cycles                r: 0.9779     p: 0.0221    
+    ref-cycles                r: 0.9765     p: 0.0235    
+    cache-references          r: 0.959      p: 0.041     
+    dTLB-load-misses          r: 0.7968     p: 0.2032    
+    instructions              r: 0.785      p: 0.215     
+    L1-dcache-load-misses     r: 0.7614     p: 0.2386    
+    LLC-stores                r: 0.711      p: 0.289     
+    dTLB-stores               r: 0.513      p: 0.487     
+    L1-icache-load-misses     r: 0.4281     p: 0.5719    
+    cache-misses              r: 0.3557     p: 0.6443    
+    node-stores               r: 0.3341     p: 0.6659    
+    LLC-store-misses          r: 0.3194     p: 0.6806    
+    node-loads                r: 0.3147     p: 0.6853    
+    branch-instructions       r: 0.2468     p: 0.7532    
+    L1-dcache-loads           r: 0.138      p: 0.862     
+    iTLB-load-misses          r: 0.1093     p: 0.8907    
+    branch-misses             r: -0.3268    p: 0.6732    
+    iTLB-loads                r: -0.4435    p: 0.5565    
+    LLC-loads                 r: -0.5811    p: 0.4189    
+    branch-load-misses        r: -0.6224    p: 0.3776    
+    LLC-load-misses           r: -0.6495    p: 0.3505    
+    L1-dcache-stores          r: -0.862     p: 0.138     
+    branch-loads              r: -0.9063    p: 0.0937    
+    dTLB-store-misses         r: -0.9108    p: 0.0892    
+    cpu-cycles                r: -0.9236    p: 0.0764    
+    dTLB-loads                r: -0.9994    p: 0.0006    
+
+R de Pearson e p-valor para cada parâmetro com RELEVANCIA ESTATISTICA (p < 0.05):
+    bus-cycles                r: 0.9779     p: 0.0221    
+    ref-cycles                r: 0.9765     p: 0.0235    
+    cache-references          r: 0.959      p: 0.041     
+    dTLB-loads                r: -0.9994    p: 0.0006    
+
+=============================== DATASET: retweets-denser ================================
+R de Pearson e p-valor para cada parâmetro (BRUTO):
+    ref-cycles                r: 0.9804     p: 0.0196    
+    bus-cycles                r: 0.9801     p: 0.0199    
+    node-loads                r: 0.9599     p: 0.0401    
+    cache-misses              r: 0.9398     p: 0.0602    
+    LLC-stores                r: 0.8789     p: 0.1211    
+    dTLB-load-misses          r: 0.8584     p: 0.1416    
+    LLC-store-misses          r: 0.83       p: 0.17      
+    node-stores               r: 0.7602     p: 0.2398    
+    L1-icache-load-misses     r: 0.7457     p: 0.2543    
+    LLC-load-misses           r: 0.4467     p: 0.5533    
+    branch-loads              r: 0.1865     p: 0.8135    
+    branch-load-misses        r: 0.0458     p: 0.9542    
+    LLC-loads                 r: 0.0077     p: 0.9923    
+    dTLB-loads                r: -0.1305    p: 0.8695    
+    iTLB-load-misses          r: -0.1309    p: 0.8691    
+    cache-references          r: -0.1807    p: 0.8193    
+    branch-misses             r: -0.2898    p: 0.7102    
+    L1-dcache-load-misses     r: -0.3238    p: 0.6762    
+    L1-dcache-loads           r: -0.423     p: 0.577     
+    iTLB-loads                r: -0.4306    p: 0.5694    
+    instructions              r: -0.443     p: 0.557     
+    branch-instructions       r: -0.4784    p: 0.5216    
+    L1-dcache-stores          r: -0.6346    p: 0.3654    
+    dTLB-stores               r: -0.7501    p: 0.2499    
+    cpu-cycles                r: -0.8676    p: 0.1324    
+    dTLB-store-misses         r: -0.9184    p: 0.0816    
+
+R de Pearson e p-valor para cada parâmetro com RELEVANCIA ESTATISTICA (p < 0.05):
+    ref-cycles                r: 0.9804     p: 0.0196    
+    bus-cycles                r: 0.9801     p: 0.0199    
+    node-loads                r: 0.9599     p: 0.0401    
+
+=============================== DATASET: school ================================
+R de Pearson e p-valor para cada parâmetro (BRUTO):
+    node-stores               r: 0.7607     p: 0.2393    
+    LLC-stores                r: 0.7169     p: 0.2831    
+    dTLB-load-misses          r: 0.6881     p: 0.3119    
+    node-loads                r: 0.5605     p: 0.4395    
+    dTLB-store-misses         r: 0.2919     p: 0.7081    
+    dTLB-stores               r: 0.1187     p: 0.8813    
+    L1-icache-load-misses     r: 0.056      p: 0.944     
+    dTLB-loads                r: -0.1025    p: 0.8975    
+    iTLB-load-misses          r: -0.118     p: 0.882     
+    branch-load-misses        r: -0.2861    p: 0.7139    
+    branch-loads              r: -0.3405    p: 0.6595    
+    bus-cycles                r: -0.4299    p: 0.5701    
+    LLC-loads                 r: -0.5819    p: 0.4181    
+    iTLB-loads                r: -0.6438    p: 0.3562    
+    LLC-store-misses          r: -0.6468    p: 0.3532    
+    ref-cycles                r: -0.8506    p: 0.1494    
+    branch-misses             r: -0.86      p: 0.14      
+    cache-misses              r: -0.8784    p: 0.1216    
+    cpu-cycles                r: -0.8975    p: 0.1025    
+    branch-instructions       r: -0.9047    p: 0.0953    
+    cache-references          r: -0.9212    p: 0.0788    
+    LLC-load-misses           r: -0.9387    p: 0.0613    
+    L1-dcache-stores          r: -0.9513    p: 0.0487    
+    L1-dcache-loads           r: -0.9517    p: 0.0483    
+    L1-dcache-load-misses     r: -0.9554    p: 0.0446    
+    instructions              r: -0.964     p: 0.036     
+
+R de Pearson e p-valor para cada parâmetro com RELEVANCIA ESTATISTICA (p < 0.05):
+    L1-dcache-stores          r: -0.9513    p: 0.0487    
+    L1-dcache-loads           r: -0.9517    p: 0.0483    
+    L1-dcache-load-misses     r: -0.9554    p: 0.0446    
+    instructions              r: -0.964     p: 0.036     

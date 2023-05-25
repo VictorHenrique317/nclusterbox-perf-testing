@@ -1,6 +1,5 @@
 #!/bin/bash
 rerun=false
-only_report=false
 
 if [[ $1 == "--rerun" ]]; then
     rerun=true
@@ -10,11 +9,10 @@ iterations=30
 raw_perf_results_dir="raw-perf-results"
 formated_perf_results_dir="formated-perf-results"
 datasets="retweets-denser school"
-user="victor.henrique"
+user="victor"
 
-rm -rf $raw_perf_results_dir
-mkdir $raw_perf_results_dir
-chown $user:$user $raw_perf_results_dir
+rm -rf $formated_perf_results_dir
+rm -rf plots
 
 if [[ $rerun == true ]]; then
     rm -rf $raw_perf_results_dir
@@ -33,4 +31,4 @@ chown $user:$user $formated_perf_results_dir
 
 scripts/format-result.sh "$datasets" $raw_perf_results_dir $formated_perf_results_dir $user $iterations
 
-python3 scripts/pearsons_r.py "$datasets" $iterations
+python3 scripts/analyse.py "$datasets" $iterations

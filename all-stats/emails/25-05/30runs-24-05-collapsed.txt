@@ -1,0 +1,79 @@
+=============================== DATASET: retweets-denser ================================
+Speedup para cada número de threads:
+    1 threads: 1.0
+    2 threads: 1.9827910683489989
+    3 threads: 2.9020964787299004
+    4 threads: 3.7818140481836062
+
+R de Pearson e p-valor para cada parâmetro (BRUTO):
+    bus-cycles                r: 0.9927     p: 0.0073    
+    ref-cycles                r: 0.9927     p: 0.0073    
+    L1-icache-load-misses     r: 0.9704     p: 0.0296    
+    node-loads                r: 0.917      p: 0.083     
+    cpu-cycles                r: 0.9141     p: 0.0859    
+    branch-misses             r: 0.9097     p: 0.0903    
+    cache-misses              r: 0.8982     p: 0.1018    
+    node-stores               r: 0.8738     p: 0.1262    
+    LLC-stores                r: 0.8398     p: 0.1602    
+    dTLB-loads                r: 0.8023     p: 0.1977    
+    LLC-load-misses           r: 0.7518     p: 0.2482    
+    LLC-loads                 r: 0.7439     p: 0.2561    
+    dTLB-load-misses          r: 0.688      p: 0.312     
+    branch-loads              r: 0.5349     p: 0.4651    
+    L1-dcache-loads           r: 0.2316     p: 0.7684    
+    LLC-store-misses          r: -0.0717    p: 0.9283    
+    iTLB-loads                r: -0.0807    p: 0.9193    
+    iTLB-load-misses          r: -0.0956    p: 0.9044    
+    cache-references          r: -0.5641    p: 0.4359    
+    L1-dcache-load-misses     r: -0.6462    p: 0.3538    
+    L1-dcache-stores          r: -0.6954    p: 0.3046    
+    dTLB-store-misses         r: -0.7945    p: 0.2055    
+    instructions              r: -0.8207    p: 0.1793    
+    dTLB-stores               r: -0.8824    p: 0.1176    
+    branch-instructions       r: -0.8913    p: 0.1087    
+    branch-load-misses        r: -0.9115    p: 0.0885    
+
+R de Pearson e p-valor para cada parâmetro com RELEVANCIA ESTATISTICA (p < 0.05):
+    bus-cycles                r: 0.9927     p: 0.0073    
+    ref-cycles                r: 0.9927     p: 0.0073    
+    L1-icache-load-misses     r: 0.9704     p: 0.0296    
+
+=============================== DATASET: school ================================
+Speedup para cada número de threads:
+    1 threads: 1.0
+    2 threads: 1.9586792632884817
+    3 threads: 2.8383423988199503
+    4 threads: 3.631243734151088
+
+R de Pearson e p-valor para cada parâmetro (BRUTO):
+    iTLB-load-misses          r: 0.9753     p: 0.0247    
+    ref-cycles                r: 0.9209     p: 0.0791    
+    bus-cycles                r: 0.8671     p: 0.1329    
+    LLC-stores                r: 0.794      p: 0.206     
+    LLC-store-misses          r: 0.7586     p: 0.2414    
+    L1-icache-load-misses     r: 0.7445     p: 0.2555    
+    dTLB-load-misses          r: 0.5065     p: 0.4935    
+    cpu-cycles                r: 0.0265     p: 0.9735    
+    iTLB-loads                r: -0.1307    p: 0.8693    
+    dTLB-store-misses         r: -0.4184    p: 0.5816    
+    branch-load-misses        r: -0.5332    p: 0.4668    
+    L1-dcache-loads           r: -0.5403    p: 0.4597    
+    branch-loads              r: -0.5793    p: 0.4207    
+    L1-dcache-stores          r: -0.5978    p: 0.4022    
+    dTLB-loads                r: -0.6083    p: 0.3917    
+    instructions              r: -0.634     p: 0.366     
+    cache-references          r: -0.6509    p: 0.3491    
+    branch-misses             r: -0.6522    p: 0.3478    
+    cache-misses              r: -0.67      p: 0.33      
+    L1-dcache-load-misses     r: -0.6811    p: 0.3189    
+    node-stores               r: -0.6832    p: 0.3168    
+    LLC-loads                 r: -0.7726    p: 0.2274    
+    branch-instructions       r: -0.8075    p: 0.1925    
+    LLC-load-misses           r: -0.8109    p: 0.1891    
+    node-loads                r: -0.9193    p: 0.0807    
+    dTLB-stores               r: -0.9632    p: 0.0368    
+
+R de Pearson e p-valor para cada parâmetro com RELEVANCIA ESTATISTICA (p < 0.05):
+    iTLB-load-misses          r: 0.9753     p: 0.0247    
+    dTLB-stores               r: -0.9632    p: 0.0368    
+

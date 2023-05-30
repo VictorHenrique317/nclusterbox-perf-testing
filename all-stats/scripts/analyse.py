@@ -139,4 +139,4 @@ for dataset in datasets:
     print(f"=============================== DATASET: {dataset} ================================")
     plot_speedup(dataset)
     print()
-    calculate_pearson(dataset)
+    # calculate_pearson(dataset)

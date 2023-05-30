@@ -1,0 +1,368 @@
+Iteration: 1
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 2
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 3
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 4
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 5
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 6
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 7
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 8
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 9
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 10
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 11
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 12
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 13
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 14
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 15
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 16
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 17
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 18
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 19
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 20
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 21
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 22
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 23
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 24
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 25
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 26
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 27
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 28
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 29
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Iteration: 30
+	Running perf...
+		Dataset: retweets-denser
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+		Dataset: school
+		===> -j=1
+		===> -j=2
+		===> -j=3
+		===> -j=4
+Formatting results...
+=============================== DATASET: retweets-denser ================================
+Speedup para cada número de threads:
+    1 threads: 1.0
+    2 threads: 1.9524431593007383
+    3 threads: 2.8215554636376172
+    4 threads: 3.624962528954898
+

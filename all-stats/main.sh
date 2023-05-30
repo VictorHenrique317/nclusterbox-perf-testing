@@ -9,7 +9,7 @@ iterations=30
 raw_perf_results_dir="raw-perf-results"
 formated_perf_results_dir="formated-perf-results"
 datasets="retweets-denser school"
-user="victor"
+user="victor.henrique"
 
 rm -rf $formated_perf_results_dir
 rm -rf plots
@@ -31,4 +31,5 @@ chown $user:$user $formated_perf_results_dir
 
 scripts/format-result.sh "$datasets" $raw_perf_results_dir $formated_perf_results_dir $user $iterations
 
+mkdir plots
 python3 scripts/analyse.py "$datasets" $iterations

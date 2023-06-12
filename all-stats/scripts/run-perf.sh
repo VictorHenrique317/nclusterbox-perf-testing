@@ -6,6 +6,7 @@ raw_perf_results_dir=$1
 user=$2
 datasets=$3
 iteration=$4
+max_j=$5
 
 mkdir $raw_perf_results_dir/$iteration
 chown $user:$user $raw_perf_results_dir/$iteration
@@ -13,7 +14,7 @@ chown $user:$user $raw_perf_results_dir/$iteration
 for dataset in $datasets
 do
 	echo "		Dataset: $dataset"
-	for i in {1..8}
+	for i in {1..$max_j}
 		do
 		echo "		===> -j=$i"
 

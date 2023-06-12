@@ -7,13 +7,14 @@ raw_perf_results_dir=$2
 formated_perf_results_dir=$3
 user=$4
 iterations=$5
+max_j=$6
 
 # features="branch-instructions branch-misses bus-cycles cache-misses cache-references cpu-cycles instructions ref-cycles L1-dcache-load-misses L1-dcache-loads L1-dcache-stores L1-icache-load-misses LLC-load-misses LLC-loads LLC-store-misses LLC-stores branch-load-misses branch-loads dTLB-load-misses dTLB-loads dTLB-store-misses dTLB-stores iTLB-load-misses iTLB-loads node-load-misses node-loads node-store-misses node-stores explanatory-power-maximization-time"
 
 for dataset in $datasets
 do
 	mkdir $formated_perf_results_dir/$dataset
-	for j in {1..4}
+	for j in {1..$max_j}
 	do
 		mkdir $formated_perf_results_dir/$dataset/j$j
 	done
@@ -23,7 +24,7 @@ for ((iteration=1; iteration<=$iterations; iteration++))
 do
 	for dataset in $datasets
 	do
-		for j in {1..4}
+		for j in {1..$max_j}
 		do
 			input_file=$raw_perf_results_dir/$iteration/$dataset-result-j$j.txt
 			output_file=$formated_perf_results_dir/$dataset/j$j/$iteration.txt

@@ -4,11 +4,11 @@ import os
 import sys
 import matplotlib.pyplot as plt
 
-def take_averages(datasets, nb_iterations):
+def take_averages(datasets, nb_iterations, max_j):
     base_folder = f'formated-perf-results'
     
     for dataset in datasets:
-        for j in [1,2,3,4]:
+        for j in range(1, max_j + 1):
             features_values_sum = dict()
 
             for iteration in range(1, nb_iterations + 1):
@@ -41,10 +41,10 @@ def take_averages(datasets, nb_iterations):
                         f.write(f"{average} {parameter}\n")
                         
 
-def load_data(base_folder):
+def load_data(base_folder, max_j):
     parameter_values = {}
 
-    for j in range(1,5):
+    for j in range(1, max_j+1):
         filename = f"{base_folder}/j{j}/averages.txt"
         lines = [line.decode("utf-8") for line in open(filename, 'rb')]
         
@@ -67,12 +67,12 @@ def load_data(base_folder):
 
     return parameter_values
 
-def plot_speedup(dataset):
+def plot_speedup(dataset, max_j):
     base_folder = f'formated-perf-results/{dataset}'
     
     timej_values = {}
 
-    for j in range(1,5):
+    for j in range(1, max_j + 1):
         filename = f"{base_folder}/j{j}/averages.txt"
         lines = [line.decode("utf-8") for line in open(filename, 'rb')]
 
@@ -84,7 +84,7 @@ def plot_speedup(dataset):
                 timej_values[j] = value
 
     speedup_values = {}
-    for j in range(1,5):
+    for j in range(1, max_j + 1):
         speedup_values[j] = timej_values[1] / timej_values[j]
 
     plt.plot([1,2,3,4], [1,2,3,4], 'o-', label="Speedup ideal")
@@ -95,7 +95,7 @@ def plot_speedup(dataset):
     plt.title(f"Speedup para o dataset {dataset}")
     plt.legend()
     plt.grid()
-    plt.xticks([1,2,3,4])
+    plt.xticks([x for x in range(1, max_j +1)])
     plt.savefig(f"plots/speedup-{dataset}.png")
     plt.clf()
 
@@ -133,10 +133,11 @@ def calculate_pearson(dataset):
 
 datasets = sys.argv[1].split(" ")
 nb_iterations = int(sys.argv[2])
+max_j = int(sys.argv[3])
 
-take_averages(datasets, nb_iterations)
+take_averages(datasets, nb_iterations, max_j)
 for dataset in datasets:
     print(f"=============================== DATASET: {dataset} ================================")
-    plot_speedup(dataset)
+    plot_speedup(dataset, max_j)
     print()
     # calculate_pearson(dataset)

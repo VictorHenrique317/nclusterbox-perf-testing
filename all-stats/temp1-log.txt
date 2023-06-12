@@ -1,0 +1,6 @@
+Parsing fuzzy tensor ... Parsing fuzzy tensor: 452409/59393160 tuples with nonzero membership degrees.
+Tensor parsing time: 1.45296s
+Shifting tensor ... Shifting tensor: done.
+Tensor shifting time: 0.507603s
+Getting and modifying initial patterns ...Getting initial patterns: done.           
+Still 999 patterns to start modifyingStill 937 patterns to start modifyingStill 875 patterns to start modifying

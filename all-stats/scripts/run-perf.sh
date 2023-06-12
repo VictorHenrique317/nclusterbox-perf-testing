@@ -13,7 +13,7 @@ chown $user:$user $raw_perf_results_dir/$iteration
 for dataset in $datasets
 do
 	echo "		Dataset: $dataset"
-	for i in {1..4}
+	for i in {1..8}
 		do
 		echo "		===> -j=$i"
 

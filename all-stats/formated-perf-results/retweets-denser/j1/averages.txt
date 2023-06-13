@@ -1,1 +1,1 @@
-16.6521 explanatory-power-maximization-time
+26.4276 explanatory-power-maximization-time

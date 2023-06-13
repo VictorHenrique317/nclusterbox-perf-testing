@@ -18,7 +18,7 @@ rm -rf plots
 if [[ $rerun == true ]]; then
     rm -rf $raw_perf_results_dir
     mkdir $raw_perf_results_dir
-    chown $user:$user $raw_perf_results_dir
+    # chown $user:$user $raw_perf_results_dir
 
     for ((i=1; i<=$iterations; i++))
     do
@@ -28,7 +28,7 @@ if [[ $rerun == true ]]; then
 fi
 
 mkdir $formated_perf_results_dir
-chown $user:$user $formated_perf_results_dir
+# chown $user:$user $formated_perf_results_dir
 
 scripts/format-result.sh "$datasets" $raw_perf_results_dir $formated_perf_results_dir $user $iterations $max_j
 

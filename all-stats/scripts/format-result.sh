@@ -14,7 +14,7 @@ max_j=$6
 for dataset in $datasets
 do
 	mkdir $formated_perf_results_dir/$dataset
-	for j in {1..$max_j}
+	for ((j=1; j<=$max_j; j++))
 	do
 		mkdir $formated_perf_results_dir/$dataset/j$j
 	done
@@ -24,7 +24,7 @@ for ((iteration=1; iteration<=$iterations; iteration++))
 do
 	for dataset in $datasets
 	do
-		for j in {1..$max_j}
+		for ((j=1; j<=$max_j; j++))
 		do
 			input_file=$raw_perf_results_dir/$iteration/$dataset-result-j$j.txt
 			output_file=$formated_perf_results_dir/$dataset/j$j/$iteration.txt
@@ -36,7 +36,7 @@ do
 			# head -n -1 $output_file > temp.txt && mv temp.txt $output_file
 			
 			# 	sed 's/\([0-9]\+,[0-9]\+\) +-/\1 total_time/' $output_file > $output_file
-			chown $user:$user $output_file
+			# chown $user:$user $output_file
 		done
 	done
 done

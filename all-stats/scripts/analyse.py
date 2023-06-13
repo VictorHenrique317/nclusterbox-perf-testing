@@ -87,7 +87,8 @@ def plot_speedup(dataset, max_j):
     for j in range(1, max_j + 1):
         speedup_values[j] = timej_values[1] / timej_values[j]
 
-    plt.plot([1,2,3,4], [1,2,3,4], 'o-', label="Speedup ideal")
+    ideal_range = [i for i in range(1, max_j + 1)]
+    plt.plot(ideal_range, ideal_range, 'o-', label="Speedup ideal")
     plt.plot(speedup_values.keys(), speedup_values.values(), 'o-', label="Speedup real")
     
     plt.xlabel("Número de threads")

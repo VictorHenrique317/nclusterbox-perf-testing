@@ -10,7 +10,7 @@ raw_perf_results_dir="raw-perf-results"
 formated_perf_results_dir="formated-perf-results"
 datasets="retweets-denser school"
 user="victor.henrique"
-max_j=8
+max_j=32
 
 rm -rf $formated_perf_results_dir
 rm -rf plots

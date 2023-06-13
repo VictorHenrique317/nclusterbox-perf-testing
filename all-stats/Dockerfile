@@ -4,8 +4,9 @@ COPY . /app
 
 WORKDIR /app/nclusterbox
 RUN apt-get update
-RUN apt-get install -y python
-RUN pip install matplotlib
+
+RUN apt-get install -y python3 python3-pip
+RUN pip3 install matplotlib
 RUN pip install numpy
 RUN pip install scipy
 
